@@ -1,4 +1,4 @@
-node('slave') {
+node('SLAVE') {
     stage('build1') {
         sh label: '', script: '''uptime 
 pwd
