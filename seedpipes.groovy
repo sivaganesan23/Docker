@@ -1,5 +1,5 @@
 
-node('slave') {
+node('SLAVE') {
     stage('Build') {
         echo 'Hello World'
         sh '''uptime
